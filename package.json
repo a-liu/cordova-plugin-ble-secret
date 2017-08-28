@@ -1,5 +1,5 @@
 {
-  "name": "BleSecret",
+  "name": "cordova-plugin-ble-secret",
   "version": "1.0.0",
   "description": "BLE SECRET",
   "cordova": {
