@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-ble-secret" version="1.0.0"
+        xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>BleSecret</name>
+    <js-module name="BleSecret" src="www/secret.js">
+        <clobbers target="window.plugins.secret" />
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="BleSecret">
+                <param name="android-package" value="cordova.plugin.ble.secret.BleSecret" />
+            </feature>
+        </config-file><config-file parent="/*" target="AndroidManifest.xml" />
+        <source-file src="src/android/BleSecret.java" target-dir="src/cordova/plugin/ble/secret" />
+    </platform>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+        <feature name="BleSecret"><param name="ios-package" value="BleSecret" />
+        </feature></config-file><source-file src="src/ios/BleSecret.m" />
+    </platform>
+</plugin>

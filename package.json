@@ -1,0 +1,19 @@
+{
+  "name": "BleSecret",
+  "version": "1.0.0",
+  "description": "BLE SECRET",
+  "cordova": {
+    "id": "cordova-plugin-ble-secret",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "",
+  "license": "ISC"
+}
