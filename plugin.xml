@@ -13,7 +13,7 @@
             </feature>
         </config-file><config-file parent="/*" target="AndroidManifest.xml" />
         <source-file src="src/android/BleSecretPlugin.java" target-dir="src/cordova/plugin/ble/secret" />
-        <source-file src="src/android/libDataPackage.so" target-dir="jniLibs" />
+        <source-file src="jniLibs/libDataPackage.so" target-dir="src/android" />
     </platform>
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
