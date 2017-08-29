@@ -62,7 +62,7 @@ public class BleSecretPlugin extends CordovaPlugin {
             }
             byte[] singleByte = hexString2Bytes(hexArray[i]);
             if(singleByte.length!=1){
-                return;
+                return result;
             }
 
             bytes[count] = singleByte[0];
