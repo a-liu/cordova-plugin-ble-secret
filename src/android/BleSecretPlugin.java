@@ -50,7 +50,7 @@ public class BleSecretPlugin extends CordovaPlugin {
     private String cryptToHexString(String cryptType, String inputStr){
         String result = "";
         if(inputStr.trim().length() <1){
-            return;
+            return result;
         }
         String[] hexArray = inputStr.trim().split(" ");
 
