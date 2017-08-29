@@ -15,17 +15,22 @@ public class BleSecretPlugin extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
-        blePackage = new BlePackage();
-
-        if (action.equals("encode")) {
-            String message = args.getString(0);
-            this.encode("encode" + message, callbackContext);
-            return true;
-        } else if (action.equals("decode")) {
-            String message = args.getString(0);
-            this.decode("decode" + message, callbackContext);
-            return true;
+        try {
+            blePackage = new BlePackage();
+            if (action.equals("encode")) {
+                String message = args.getString(0);
+                this.encode("encode" + message, callbackContext);
+                return true;
+            } else if (action.equals("decode")) {
+                String message = args.getString(0);
+                this.decode("decode" + message, callbackContext);
+                return true;
+            }
+        } catch (Exception ex) {
+            callbackContext.error(ex.getMessage());
         }
+
+
         return false;
     }
 

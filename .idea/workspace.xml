@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d24a6a0-b6ed-4321-94c3-1e42e5e442e6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniLibs/arm64-v8a/libDataPackage.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniLibs/armeabi-v7a/libDataPackage.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniLibs/armeabi/libDataPackage.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniLibs/mips/libDataPackage.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniLibs/mips64/libDataPackage.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniLibs/x86/libDataPackage.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jniLibs/x86_64/libDataPackage.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin.xml" afterPath="$PROJECT_DIR$/plugin.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/android/BleSecretPlugin.java" afterPath="$PROJECT_DIR$/src/android/BleSecretPlugin.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,8 +29,8 @@
       <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            <state relative-caret-position="355">
+              <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -30,14 +39,14 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-494">
-              <caret line="76" column="12" lean-forward="false" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
+            <state relative-caret-position="-323">
+              <caret line="85" column="12" lean-forward="false" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
               <folding>
-                <marker date="1503995296532" expanded="true" signature="52263:52535" ph="..." />
-                <marker date="1503995296532" expanded="true" signature="52282:52520" ph="..." />
-                <marker date="1503995296532" expanded="true" signature="52315:52500" ph="..." />
-                <marker date="1503995296532" expanded="true" signature="52355:52466" ph="..." />
-                <marker date="1503995296532" expanded="true" signature="52376:52444" ph="..." />
+                <marker date="1503996550040" expanded="true" signature="51638:51910" ph="..." />
+                <marker date="1503996550040" expanded="true" signature="51657:51895" ph="..." />
+                <marker date="1503996550040" expanded="true" signature="51690:51875" ph="..." />
+                <marker date="1503996550040" expanded="true" signature="51730:51841" ph="..." />
+                <marker date="1503996550040" expanded="true" signature="51751:51819" ph="..." />
               </folding>
             </state>
           </provider>
@@ -46,8 +55,8 @@
       <file leaf-file-name="BleSecretPlugin.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/android/BleSecretPlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="64" column="29" lean-forward="false" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+            <state relative-caret-position="171">
+              <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,8 +77,8 @@
       <file leaf-file-name="BlePackage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/android/BlePackage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="152">
+              <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -92,8 +101,8 @@
         <option value="$PROJECT_DIR$/www/secret.js" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/android/BlePackage.java" />
-        <option value="$PROJECT_DIR$/plugin.xml" />
         <option value="$PROJECT_DIR$/src/android/BleSecretPlugin.java" />
+        <option value="$PROJECT_DIR$/plugin.xml" />
       </list>
     </option>
   </component>
@@ -163,52 +172,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cordova-plugin-ble-secret" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cordova-plugin-ble-secret" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cordova-plugin-ble-secret" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cordova-plugin-ble-secret" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cordova-plugin-ble-secret" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cordova-plugin-ble-secret" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -231,6 +194,7 @@
       <recent name="D:\WORK\NFME\Android Sample\plugman\plugins\cordova-plugin-ble-secret\jniLibs" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WORK\NFME\Android Sample\plugman\plugins\cordova-plugin-ble-secret\jniLibs" />
       <recent name="D:\WORK\NFME\Android Sample\plugman\plugins\cordova-plugin-ble-secret\src\android" />
       <recent name="D:\WORK\NFME\Android Sample\plugman\plugins\cordova-plugin-ble-secret" />
     </key>
@@ -641,16 +605,15 @@
       <workItem from="1503657176624" duration="8218000" />
       <workItem from="1503976801196" duration="5284000" />
       <workItem from="1503990959396" duration="457000" />
-      <workItem from="1503991444427" duration="3843000" />
+      <workItem from="1503991444427" duration="5107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17798000" />
+    <option name="totallyTimeSpent" value="19062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -667,7 +630,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25402635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25402635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -905,14 +868,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494">
-          <caret line="76" column="12" lean-forward="false" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
+        <state relative-caret-position="-323">
+          <caret line="85" column="12" lean-forward="false" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
           <folding>
-            <marker date="1503995296532" expanded="true" signature="52263:52535" ph="..." />
-            <marker date="1503995296532" expanded="true" signature="52282:52520" ph="..." />
-            <marker date="1503995296532" expanded="true" signature="52315:52500" ph="..." />
-            <marker date="1503995296532" expanded="true" signature="52355:52466" ph="..." />
-            <marker date="1503995296532" expanded="true" signature="52376:52444" ph="..." />
+            <marker date="1503996550040" expanded="true" signature="51638:51910" ph="..." />
+            <marker date="1503996550040" expanded="true" signature="51657:51895" ph="..." />
+            <marker date="1503996550040" expanded="true" signature="51690:51875" ph="..." />
+            <marker date="1503996550040" expanded="true" signature="51730:51841" ph="..." />
+            <marker date="1503996550040" expanded="true" signature="51751:51819" ph="..." />
           </folding>
         </state>
       </provider>
@@ -927,24 +890,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/android/BlePackage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="152">
+          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="355">
+          <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/android/BleSecretPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="64" column="29" lean-forward="false" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+        <state relative-caret-position="171">
+          <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

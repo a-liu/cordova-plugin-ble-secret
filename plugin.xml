@@ -14,7 +14,13 @@
         </config-file><config-file parent="/*" target="AndroidManifest.xml" />
         <source-file src="src/android/BleSecretPlugin.java" target-dir="src/cordova/plugin/ble/secret" />
         <source-file src="src/android/BlePackage.java" target-dir="src/cordova/plugin/ble/secret" />
-        <source-file src="jniLibs/libDataPackage.so" target-dir="src/cordova/plugin/ble/secret" />
+        <source-file src="jniLibs/arm64-v8a/libDataPackage.so" target-dir="libs/arm64-v8a" />
+        <source-file src="jniLibs/armeabi/libDataPackage.so" target-dir="libs/armeabi" />
+        <source-file src="jniLibs/armeabi-v7a/libDataPackage.so" target-dir="libs/armeabi-v7a" />
+        <source-file src="jniLibs/mips/libDataPackage.so" target-dir="libs/mips" />
+        <source-file src="jniLibs/mips64/libDataPackage.so" target-dir="libs/mips64" />
+        <source-file src="jniLibs/x86/libDataPackage.so" target-dir="libs/x86" />
+        <source-file src="jniLibs/x86_64/libDataPackage.so" target-dir="libs/x86_64" />
     </platform>
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
