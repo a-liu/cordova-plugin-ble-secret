@@ -19,11 +19,11 @@ public class BleSecretPlugin extends CordovaPlugin {
             blePackage = new BlePackage();
             if (action.equals("encode")) {
                 String message = args.getString(0);
-                this.encode("encode" + message, callbackContext);
+                this.encode(message, callbackContext);
                 return true;
             } else if (action.equals("decode")) {
                 String message = args.getString(0);
-                this.decode("decode" + message, callbackContext);
+                this.decode(message, callbackContext);
                 return true;
             }
         } catch (Exception ex) {
