@@ -12,11 +12,11 @@
                 <param name="android-package" value="cordova.plugin.ble.secret.BleSecretPlugin" />
             </feature>
         </config-file><config-file parent="/*" target="AndroidManifest.xml" />
-        <source-file src="src/android/BleSecret.java" target-dir="src/cordova/plugin/ble/secret" />
+        <source-file src="src/android/BleSecretPlugin.java" target-dir="src/cordova/plugin/ble/secret" />
     </platform>
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
         <feature name="BleSecret"><param name="ios-package" value="BleSecret" />
-        </feature></config-file><source-file src="src/ios/BleSecret.m" />
+        </feature></config-file><source-file src="src/ios/BleSecretPlugin.m" />
     </platform>
 </plugin>
