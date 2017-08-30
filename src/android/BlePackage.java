@@ -1,4 +1,4 @@
-package cordova.plugin.ble.secret;
+package com.polycrystal.datapackage;
 
 /**
  * Created by admin on 2017/6/10.

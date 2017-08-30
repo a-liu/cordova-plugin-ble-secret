@@ -1,5 +1,7 @@
 package cordova.plugin.ble.secret;
 
+import com.polycrystal.datapackage.BlePackage;
+
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
 
